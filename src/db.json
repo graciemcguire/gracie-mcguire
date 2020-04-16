@@ -2,26 +2,26 @@
 [
   { "name": "resume",
     "url": "https://medium.com/@m.graciemcguire",
-    "image": ""
+    "icon": "fa fa-sticky-note"
   },
   { "name": "github",
     "url": "https://github.com/graciemcguire",
-    "image": "https://img.icons8.com/ios/50/000000/github.png"
+    "icon": "fab fa-github-square"
   },
   { "name": "linkedin",
     "url": "https://www.linkedin.com/in/graciemcguire/",
-    "image": ""
+    "icon": "fab fa-linkedin"
   },
   { "name": "medium",
     "url": "https://medium.com/@m.graciemcguire",
-    "image": ""
+    "icon": "fab fa-medium"
   },
   { "name": "twitter",
     "url": "https://twitter.com/__greysea",
-    "image": ""
+    "icon": "fab fa-twitter-square"
   },
   { "name": "insta",
     "url": "https://www.instagram.com/gracieisimportant/",
-    "image": ""
+    "icon": "fab fa-instagram-square"
   }
 ]

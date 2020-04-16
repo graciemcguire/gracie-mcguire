@@ -3,10 +3,10 @@ import React from 'react';
 function Main (props) {
 
   let renderContact = () => {
-    props.contact.forEach(site => {
+    return props.contact.map(site => {
       return (
-        <a href={ site.url } alt= { site.name } target="_blank" rel="noopener noreferrer">
-          <img src={ site.image } />
+        <a class='icon' href= { site.url } target="_blank" rel="noopener noreferrer">
+          <i class={ site.icon }></i>
         </a>
       )
     })

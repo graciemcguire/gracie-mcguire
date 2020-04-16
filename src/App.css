@@ -19,15 +19,17 @@ body {
 
 .icon {
   width: 1em;
-  height: 1em;
-  margin: .5em;
+  /* height: 1em; */
+  margin: .3em;
+  text-decoration: none;
+  color: black;
 }
 
 .icon-links {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 h1 {
