@@ -2,25 +2,18 @@ import React from 'react';
 
 function Main (props) {
 
-  let renderContact = () => {
-    return props.contact.map(site => {
-      return (
-        <a class='icon' href= { site.url } target="_blank" rel="noopener noreferrer">
-          <i class={ site.icon }></i>
-        </a>
-      )
-    })
-  }
-
   return(
-    <div className='main'>
-      <h1>Gracie McGuire</h1>
-      <p>Software Engineer | Designer</p>
+    <div>
+      <div className='main'>
 
-      <div className= 'icon-links'>
-        { renderContact() }
+        <h1>Gracie</h1>
+        <h1>McGuire</h1>
+        <p>Software Engineer | Designer</p>
       </div>
-    </div>
+      <div className= 'icon-links'>
+
+      </div>
+  </div>
   )
 }
 export default Main;
