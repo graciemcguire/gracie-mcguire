@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Main (props) {
-
   return(
     <div>
       <div className='main'>
@@ -10,8 +9,9 @@ function Main (props) {
         <h1>McGuire</h1>
         <p>Software Engineer | Designer</p>
       </div>
-      <div className= 'icon-links'>
-
+      <div className='buttons'>
+        <button>About</button>
+        <button>Portfolio</button>
       </div>
   </div>
   )

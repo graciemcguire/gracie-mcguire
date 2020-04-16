@@ -44,3 +44,27 @@ h1 {
 p {
   font-family: 'Bebas Neue', cursive;
 }
+.buttons{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+button {
+  margin: 1em;
+  background-color: black;
+  border-radius: 75px;
+  height: 5em;
+  width: 5em;
+  color: #a52e2e;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+
+}
+
+button:hover{
+  color: #ff4545;
+  opacity: .8;
+}
