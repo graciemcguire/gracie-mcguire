@@ -2,7 +2,7 @@
   background-color: #c0f4dd;
 }
 .main {
-  /* margin: 0; */
+  margin: 2em;
   padding: 0;
   display: flex;
   flex-flow: column wrap;
@@ -38,7 +38,7 @@ h1 {
   font-family: 'Rokkitt', serif;
 }
 
-p {
+p{
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -60,7 +60,17 @@ button {
   color: #a52e2e;
   font-family: 'Bebas Neue', cursive;
   font-size: 2em;
+}
 
+.btn {
+  margin: 1em;
+  background-color: black;
+  border-radius: 20px;
+  height: 3em;
+  width: 5em;
+  color: #a52e2e;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
 }
 
 
@@ -69,10 +79,29 @@ button:hover{
   opacity: .8;
 }
 
-.bio{
-  width: 30em;
+.bio {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex-flow: column wrap;
+  max-width: 30em;
+}
+
+.render-modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.portfolio{
+  background-color: #a52e2e;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.port{
+  display: flex;
+  justify-content: center;
 }
