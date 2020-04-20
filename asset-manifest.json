@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/graciemcguire.com/static/css/main.03d2570f.chunk.css",
+    "main.js": "/graciemcguire.com/static/js/main.52521505.chunk.js",
+    "main.js.map": "/graciemcguire.com/static/js/main.52521505.chunk.js.map",
+    "runtime-main.js": "/graciemcguire.com/static/js/runtime-main.5dfe4451.js",
+    "runtime-main.js.map": "/graciemcguire.com/static/js/runtime-main.5dfe4451.js.map",
+    "static/js/2.b4aed5c9.chunk.js": "/graciemcguire.com/static/js/2.b4aed5c9.chunk.js",
+    "static/js/2.b4aed5c9.chunk.js.map": "/graciemcguire.com/static/js/2.b4aed5c9.chunk.js.map",
+    "index.html": "/graciemcguire.com/index.html",
+    "precache-manifest.6cb91b20f8837a65bddf4518f99fe32a.js": "/graciemcguire.com/precache-manifest.6cb91b20f8837a65bddf4518f99fe32a.js",
+    "service-worker.js": "/graciemcguire.com/service-worker.js",
+    "static/css/main.03d2570f.chunk.css.map": "/graciemcguire.com/static/css/main.03d2570f.chunk.css.map",
+    "static/js/2.b4aed5c9.chunk.js.LICENSE.txt": "/graciemcguire.com/static/js/2.b4aed5c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5dfe4451.js",
+    "static/js/2.b4aed5c9.chunk.js",
+    "static/css/main.03d2570f.chunk.css",
+    "static/js/main.52521505.chunk.js"
+  ]
+}
