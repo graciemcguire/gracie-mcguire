@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30bb9ee953c85ce4a78a271dfc19cc8b",
+    "revision": "7f9a7a08373cbced097b77bb369c07eb",
     "url": "/graciemcguire.com/index.html"
   },
   {
-    "revision": "65abffb33652c0380ee0",
+    "revision": "1e7f5bdd026a3ba17e82",
     "url": "/graciemcguire.com/static/css/main.03d2570f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/graciemcguire.com/static/js/2.b4aed5c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65abffb33652c0380ee0",
-    "url": "/graciemcguire.com/static/js/main.b8b0ac5d.chunk.js"
+    "revision": "1e7f5bdd026a3ba17e82",
+    "url": "/graciemcguire.com/static/js/main.8f9d8d3f.chunk.js"
   },
   {
     "revision": "5b38694e15f4adbcee9b",
