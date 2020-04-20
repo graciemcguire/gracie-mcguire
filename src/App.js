@@ -22,7 +22,7 @@ function App() {
           component={ Portfolio }
         />
         <Route
-          path="/"
+          exact path="/"
           component={ Main }
         />
       </Switch>
