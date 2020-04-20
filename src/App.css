@@ -2,7 +2,6 @@
   background-color: #c0f4dd;
 }
 .main {
-  margin: 2em;
   padding: 0;
   display: flex;
   flex-flow: column wrap;
@@ -11,7 +10,7 @@
 
 .app {
   display: flex;
-  margin: 6em;
+  margin: 2em 6em;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
