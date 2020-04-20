@@ -1,5 +1,8 @@
 
-[
+[ { "name": "email",
+    "url": "mailto:hello@graciemcguire.com",
+    "icon": "fas fa-envelope-square"
+  },
   { "name": "github",
     "url": "https://github.com/graciemcguire",
     "icon": "fab fa-github-square"
