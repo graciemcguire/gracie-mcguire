@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom'
 function Portfolio (props) {
   return(
     <div>
-      <div className='icon-links'>
-        { renderContact() }
-      </div>
+
+      { renderContact() }
 
       <div className='main'>
 

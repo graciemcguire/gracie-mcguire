@@ -8,9 +8,7 @@ function About (props) {
   return(
     <div>
 
-      <div className='icon-links'>
         { renderContact() }
-      </div>
 
       <div className='main'>
         <h1>Hello!</h1>

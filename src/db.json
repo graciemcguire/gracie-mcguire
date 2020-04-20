@@ -1,9 +1,5 @@
 
 [
-  { "name": "resume",
-    "url": "https://medium.com/@m.graciemcguire",
-    "icon": "fa fa-sticky-note"
-  },
   { "name": "github",
     "url": "https://github.com/graciemcguire",
     "icon": "fab fa-github-square"

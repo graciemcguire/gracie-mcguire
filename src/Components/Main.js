@@ -3,16 +3,13 @@ import { Link } from 'react-router-dom'
 import contact from '../db.json'
 import renderContact from './contact'
 
+
 function Main (props) {
 
   return(
 
     <div>
-
-      <div className='icon-links'>
-        { renderContact() }
-      </div>
-
+      { renderContact() }
       <div className='main'>
         <h1>Gracie</h1>
         <h1>McGuire</h1>
