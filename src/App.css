@@ -46,7 +46,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   /* align-content: left; */
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
@@ -67,4 +67,12 @@ button {
 button:hover{
   color: #ff4545;
   opacity: .8;
+}
+
+.bio{
+  width: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }

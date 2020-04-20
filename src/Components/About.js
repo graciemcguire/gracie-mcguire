@@ -16,8 +16,8 @@ function About (props) {
 
       <div className='main'>
         <h1>Hello!</h1>
-        <div>
-        I am a software engineer and designer born and raised in Denver, but currently residing in Brooklyn.
+        <div className='bio'>
+        I am a full stack software engineer and designer born and raised in Denver, but currently residing in Brooklyn. I have a passion for social justice and progessive politics, and want to use my skills and my voice to help make the world a better and more inclusive place. I love finding creative solutions to problems, and am always striving to learn more. 
         </div>
 
 
