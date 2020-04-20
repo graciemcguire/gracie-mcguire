@@ -1,20 +1,12 @@
 import React from 'react';
-import contact from '../db.json'
 import { Link } from 'react-router-dom'
+import contact from '../db.json'
+import renderContact from './contact'
 
 function Main (props) {
 
-  let renderContact = () => {
-    return contact.map(site => {
-      return (
-        <a class='icon' href= { site.url } target="_blank" rel="noopener noreferrer">
-          <i class={ site.icon }></i>
-        </a>
-      )
-    })
-  }
-
   return(
+
     <div>
 
       <div className='icon-links'>
@@ -28,11 +20,11 @@ function Main (props) {
 
         <div className='buttons'>
           <Link to='/about'> <button>About</button> </Link>
-          <button>Portfolio</button>
+          <Link to='/portfolio'> <button>Portfolio</button> </Link>
         </div>
 
       </div>
-      
+
     </div>
   )
 }

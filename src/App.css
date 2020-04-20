@@ -46,7 +46,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   /* align-content: left; */
-  /* justify-content: center; */
+  justify-content: space-between;
 
 }
 

@@ -12,7 +12,6 @@ function App() {
 
   return (
     <div className='app'>
-
       <Switch>
         <Route
           path="/about"
