@@ -1,5 +1,5 @@
 import React from 'react'
-import renderContact from './contact'
+import renderContact from './contactFunc'
 import { Link } from 'react-router-dom'
 
 function Portfolio (props) {

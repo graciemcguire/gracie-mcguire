@@ -3,6 +3,7 @@ import './App.css';
 import Main from './Components/Main.js'
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
+import Contact from './Components/contactFunc'
 
 import { Switch, Route } from 'react-router-dom'
 
@@ -20,6 +21,10 @@ function App() {
         <Route
           path="/portfolio"
           component={ Portfolio }
+        />
+        <Route
+          path="/contact"
+          component={ Contact }
         />
         <Route
           exact path="/"
