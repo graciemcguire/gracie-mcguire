@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from '../Components/Nav.js'
+import Form from '../Components/Form.js'
 import { ContainerDiv, ContentDiv } from '../StyledComponents/ContentDivs'
+import { FormDiv } from '../StyledComponents/FormStyle'
 import SidePanel from '../Components/SidePanel'
 
 const Contact = () => {
@@ -9,7 +11,9 @@ const Contact = () => {
             <SidePanel name='say hi!'/>
             <ContentDiv>
                 <Nav/>
-                <h1>Contact</h1>
+                <FormDiv>
+                    <Form />
+                </FormDiv>
             </ContentDiv>
         </ContainerDiv>
      );
