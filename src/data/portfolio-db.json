@@ -1,18 +1,18 @@
 [ { "type": "dev",
     "name": "anti-racism resources",
-    "url": "anti-racism.io",
+    "url": "https://anti-racism.io",
     "github": "",
     "image": "/images/anti-racism.png"
   },
   { "type": "dev",
     "name": "glass moon tattoo",
-    "url": "glassmoontattoo.com",
+    "url": "https://glassmoontattoo.com",
     "github": "",
     "image": "/images/glassmoon.png"
   },
   { "type": "dev",
     "name": "trash island",
-    "url": "trashislandbk.com",
+    "url": "https://trashislandbk.com",
     "github": "",
     "image": "/images/trashisland.png"
   },
