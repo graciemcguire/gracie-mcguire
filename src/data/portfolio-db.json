@@ -1,0 +1,71 @@
+[ { "type": "dev",
+    "name": "anti-racism resources",
+    "url": "anti-racism.io",
+    "github": "",
+    "image": "/images/anti-racism.png"
+  },
+  { "type": "dev",
+    "name": "glass moon tattoo",
+    "url": "glassmoontattoo.com",
+    "github": "",
+    "image": "/images/glassmoon.png"
+  },
+  { "type": "dev",
+    "name": "trash island",
+    "url": "trashislandbk.com",
+    "github": "",
+    "image": "/images/trashisland.png"
+  },
+  { "type": "dev",
+    "name": "woke or joke",
+    "url": "https://github.com/graciemcguire/senators",
+    "github": "",
+    "image": "/images/wokeorjoke.png"
+  },
+  { "type": "design",
+    "name": "k.flay poster",
+    "url": "",
+    "image": "/images/kflay.png"
+  },
+  { "type": "design",
+    "name": "pxlman poster",
+    "url": "",
+    "image": "/images/pxlman.png"
+  },
+  { "type": "design",
+    "name": "crystal castles poster",
+    "url": "",
+    "image": "/images/crystalcastles.png"
+  },
+    { "type": "design",
+    "name": "brother ali poster",
+    "url": "",
+    "image": "/images/brother-ali.png"
+  },
+    { "type": "design",
+    "name": "air dubai poster",
+    "url": "",
+    "image": "/images/airdubai.png"
+  },
+  { "type": "design",
+    "name": "theophilus london poster",
+    "url": "",
+    "image": "/images/theo.png"
+  },
+  { "type": "design",
+    "name": "mile high shred day poster",
+    "url": "",
+    "image": "/images/shred-day.png"
+  },
+  { "type": "design",
+    "name": "air dubai tour poster",
+    "url": "",
+    "image": "/images/airdubai-tour.png"
+  },
+  { "type": "design",
+    "name": "on the road poster",
+    "url": "",
+    "image": "/images/otr.png"
+  }
+]
+

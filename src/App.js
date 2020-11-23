@@ -1,39 +1,42 @@
 import React from 'react';
-import './App.css';
-import Main from './Components/Main.js'
-import About from './Components/About'
-import Portfolio from './Components/Portfolio'
-import Contact from './Components/contactFunc'
-
 import { Switch, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Portfolio from './Pages/Portfolio'
+import Contact from './Pages/Contact'
 
-function App() {
-  console.log("Made with ❤️ by Gracie McGuire in 2019");
+// const GlobalStyles = createGlobalStyle`
+//   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+//   /* h1 {
+//     font-family: 'Bebas Neue';
+//   } */
+  
+// `
+
+const App = () => {
+  console.log("Made with ❤️ by Gracie McGuire in 2020");
   console.log("github.com/graciemcguire 🏝");
-
-  return (
-    <div className='app'>
+ return (
       <Switch>
-        <Route
-          path="/about"
+        <Route 
+          path='/about'
           component={ About }
         />
-        <Route
-          path="/portfolio"
+        <Route 
+          path='/portfolio'
           component={ Portfolio }
         />
-        <Route
-          path="/contact"
+        <Route 
+          path='/contact'
           component={ Contact }
         />
-        <Route
-          exact path="/"
-          component={ Main }
+        <Route 
+          path='/*'
+          component={ Home }
         />
       </Switch>
-
-    </div>
-  );
+  )
 }
 
 export default App;
