@@ -35,8 +35,9 @@ export const StyledForm = styled.form`
         background-color: black;
         color: white; 
         font-family: 'Bebas Neue';
-        font-size: 1em;
+        font-size: 4vh;
         width: 15vw;
         height: 5vh;
+        margin-bottom: 3em;
     }
 `
