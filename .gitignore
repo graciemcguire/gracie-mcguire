@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+REACT_APP_EMAILJS_USERID=yourid
+REACT_APP_EMAILJS_TEMPLATEID=yourtemplateid
+REACT_APP_EMAILJS_RECEIVER="hello@graciemcguire.com"

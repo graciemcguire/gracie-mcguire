@@ -13,7 +13,7 @@ export const TileDiv = styled.div`
     width: 15em;
     
     background-color: black;
-    color: white;
+    /* color: white; */
     padding: 2em;
     margin: 2em;
     display: flex;
@@ -22,11 +22,13 @@ export const TileDiv = styled.div`
 
     img {
         width: 15em;
+        padding-bottom: 2em;
     }
 
     a {
         text-decoration: none;
         color: white;
+        font-family: 'Roboto', sans-serif;
         &:vistited {
             text-decoration: none;
         }
