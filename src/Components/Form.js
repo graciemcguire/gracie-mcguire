@@ -59,35 +59,35 @@ function Form() {
 
 
   return (
-      <FormDiv>
-    <StyledForm
-       onSubmit={ handleOnSubmit }>
-        <label htmlFor="email"> Email:</label>
-        <input
-          id="email"
-          type="email"
-          name="email"
-          required
-          onChange={ handleOnChange }
-          value={ inputs.email }
-        />
-        <label htmlFor="message">Message:</label>
-        <textarea
-          id="message"
-          name="message"
-          onChange={ handleOnChange }
-          value={ inputs.message }
-        ></textarea>
-        <button type="submit" disabled={ serverState.submitting }>
-          Submit
-        </button>
-        { serverState.status && (
-          <p className={ !serverState.status.ok ? "errorMsg" : "" }>
-            { serverState.status.msg }
-          </p>
-        ) }
-      
-    </StyledForm>
+    <FormDiv>
+        <StyledForm
+        onSubmit={ handleOnSubmit }>
+            <label htmlFor="email"> Email:</label>
+            <input
+            id="email"
+            type="email"
+            name="email"
+            required
+            onChange={ handleOnChange }
+            value={ inputs.email }
+            />
+            <label htmlFor="message">Message:</label>
+            <textarea
+            id="message"
+            name="message"
+            onChange={ handleOnChange }
+            value={ inputs.message }
+            ></textarea>
+            <button type="submit" disabled={ serverState.submitting }>
+            Submit
+            </button>
+            { serverState.status && (
+            <p className={ !serverState.status.ok ? "errorMsg" : "" }>
+                { serverState.status.msg }
+            </p>
+            ) }
+        
+        </StyledForm>
     </FormDiv>
   );
 };

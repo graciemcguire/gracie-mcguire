@@ -3,7 +3,6 @@ import { TileDiv } from '../StyledComponents/TileStyle'
 import { Icons } from '../StyledComponents/NavStyle'
 
 const Tile = (props) => {
-    console.log(props)
     const { name, image, url, github } = props.item
 
     const renderGit = () => {
