@@ -61,7 +61,7 @@ function Form() {
   return (
     <FormDiv>
         <StyledForm
-        onSubmit={ handleOnSubmit }>
+            onSubmit={ handleOnSubmit }>
             <label htmlFor="email"> Email:</label>
             <input
             id="email"
