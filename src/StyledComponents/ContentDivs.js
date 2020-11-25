@@ -12,6 +12,12 @@ export const ContainerDiv = styled.div`
     grid-template-columns: 30% 70%;
     height: 100vh;
     /* overflow: auto; */
+
+    @media (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+    }
 `
 
 export const MainContentDiv = styled.div`
@@ -26,6 +32,10 @@ export const MainContentDiv = styled.div`
             font-size: 5em;
             margin: 0em;
         }
+
+      @media (max-width: 950px) {
+        margin-right: 2em;
+      }
 
 `
 
