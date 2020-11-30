@@ -41,13 +41,6 @@ export const MainContentDiv = styled.div`
 
 `
 
-export const HomeNavDiv = styled.div`
-    margin: 2em -1.3em .5em 0em
-
-    @media (max-width: 500px) {
-        margin: auto;
-      }
-`
 
 export const ContentDiv = styled.div`
     overflow: auto;
@@ -66,4 +59,8 @@ export const BioDiv = styled.div`
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     width: 20em;
+
+    @media (max-width: 500px) {
+        margin: 0em 1em;
+    }
 `

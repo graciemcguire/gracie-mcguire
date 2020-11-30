@@ -7,6 +7,10 @@ export const FormDiv = styled.div`
     margin-top: 3em;
     overflow: auto;
     /* width: 20em; */
+
+    @media (max-width: 500px) {
+        margin-top: 1em;
+    }
 `
 export const StyledForm = styled.form`
     display: flex;
@@ -39,5 +43,25 @@ export const StyledForm = styled.form`
         width: 15vw;
         height: 2em;
         margin-bottom: 3em;
+    }
+
+
+
+    @media (max-width: 500px) {
+        margin-top: 1em;
+
+        input {
+            width: auto;
+            height: 1em;
+        }
+
+        textarea {
+            width: auto;
+            height: auto;
+        }
+
+        button {
+            width: auto;
+        }
     }
 `

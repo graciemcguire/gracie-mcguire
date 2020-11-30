@@ -41,6 +41,15 @@ export const HomeLink = styled(Link)`
   }
 `
 
+export const HomeNavDiv = styled.div`
+    margin: 2em -1.3em .5em 0em
+
+    @media (max-width: 500px) {
+        margin: auto;
+        /* width: 80vw; */
+      }
+`
+
 export const TopNavLink = styled(Link)`
   padding: 1em;
   color: black;
@@ -52,6 +61,10 @@ export const TopNavLink = styled(Link)`
 
   &:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.3em;
   }
 `
 
@@ -67,6 +80,11 @@ export const NavLinks = styled(Link)`
     text-decoration: underline;
     text-underline-position: under;
   }
+
+  @media (max-width: 500px) {
+    font-size: 1.2em;
+  }
+
 `;
 
 

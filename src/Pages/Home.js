@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLinks } from '../StyledComponents/NavStyle'
-import { ContainerDiv, MainContentDiv, HomeNavDiv } from '../StyledComponents/ContentDivs'
+import { ContainerDiv, MainContentDiv } from '../StyledComponents/ContentDivs'
+import { HomeNavDiv } from '../StyledComponents/NavStyle.js'
 import SidePanel from '../Components/SidePanel'
 
 import renderContact from '../helpers.js/renderContact'
