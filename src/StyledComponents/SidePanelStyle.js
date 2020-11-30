@@ -8,7 +8,7 @@ export const SideTitle = styled.h1`
 
      @media (max-width: 500px) {
         transform: none;
-        font-size: 3.5em;
+        font-size: 2.5em;
         margin: auto;
         white-space: nowrap;
         padding: 0em 1em;
