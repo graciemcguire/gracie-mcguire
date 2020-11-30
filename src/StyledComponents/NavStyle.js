@@ -64,7 +64,7 @@ export const TopNavLink = styled(Link)`
   }
 
   @media (max-width: 500px) {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 `
 
@@ -81,7 +81,7 @@ export const NavLinks = styled(Link)`
     text-underline-position: under;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     font-size: 1.2em;
   }
 
