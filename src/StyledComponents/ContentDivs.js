@@ -16,7 +16,8 @@ export const ContainerDiv = styled.div`
     @media (max-width: 500px) {
         display: flex;
         flex-direction: column;
-        height: 85vh;
+        margin-top: 0;
+        height: auto;
     }
 `
 
@@ -39,8 +40,17 @@ export const MainContentDiv = styled.div`
 
 `
 
+export const HomeNavDiv = styled.div`
+    margin: 2em -1.3em .5em 0em
+
+    @media (max-width: 500px) {
+        margin: auto;
+      }
+`
+
 export const ContentDiv = styled.div`
     overflow: auto;
+
 `
 
 export const AboutDiv = styled.div`

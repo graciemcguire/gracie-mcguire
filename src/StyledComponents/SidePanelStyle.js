@@ -29,6 +29,7 @@ export const SideDiv = styled.div`
         width: 60vw;
         margin-top: 5em;
         padding: 1em;
+        height: auto;
     }
     
     @media (max-width: 400px) {
