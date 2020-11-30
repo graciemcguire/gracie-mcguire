@@ -18,6 +18,7 @@ export const ContainerDiv = styled.div`
         flex-direction: column;
         margin-top: 0;
         height: auto;
+        width: 99vw;
     }
 `
 
