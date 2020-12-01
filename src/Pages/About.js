@@ -15,7 +15,7 @@ const About = () => {
                     <BioDiv>
                         <h1>Hello!</h1>
                         <p>
-                        I am NYC based by way of Denver, and am hoping to combine my passion for social justice and progressive politics with my skills and experience as a software engineer and designer. I am driven by the prospect of not only diversifying tech, but by using tech for the greater good. 
+                        I am an NYC based software engineer and designer hoping to combine these skills and experience with my passion for social justice and progressive politics. I am driven by the prospect of not only diversifying tech, but by using tech for the greater good. 
                         </p>
                         <p>
                         I am always looking for innovative and unique approaches to both technical and design problems, and have experience doing so with  Javascript, React, Redux, Node, Express, PostgreSQL, Ruby, Ruby on Rails, as well as Adobe Creative Suite. 
