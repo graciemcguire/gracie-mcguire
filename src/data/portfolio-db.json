@@ -1,6 +1,6 @@
 [ { "type": "dev",
     "name": "Anti-Racism Resources",
-    "url": "https://anti-racism.io",
+    "url": "https://github.com/graciemcguire/antiracism-resources-frontend",
     "github": "https://github.com/graciemcguire/antiracism-resources-frontend",
     "image": "/images/anti-racism.png"
   },
