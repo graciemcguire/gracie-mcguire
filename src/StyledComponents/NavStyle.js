@@ -69,7 +69,7 @@ export const TopNavLink = styled(Link)`
 `
 
 export const NavLinks = styled(Link)`
-  padding: 1em;
+  padding: 1em .2em;
   color: black;
   text-decoration: none;
   align-self: right;
