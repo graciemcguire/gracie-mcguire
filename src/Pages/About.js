@@ -21,7 +21,7 @@ const About = () => {
                         I am always looking for innovative and unique approaches to both technical and design problems, and have experience doing so with  Javascript, React, Redux, Node, Express, PostgreSQL, Ruby, Ruby on Rails, as well as Adobe Creative Suite. 
                        </p> 
                     <p>
-                        When not on my computer, I can be found skateboarding, reading, cooking, and missing the times when we could see live music. 
+                        When not on my computer, I can be found skateboarding, reading, cooking, and missing the good ol' days when we could see live music. 
                     </p>
                     </BioDiv>
                 </AboutDiv>
