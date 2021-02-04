@@ -6,7 +6,7 @@ const Tile = (props) => {
     const { name, image, url, github } = props.item
 
     const renderGit = () => {
-        if (github != undefined){ 
+        if (github !== undefined){ 
             return (
                  <Icons href= { github } target="_blank" rel="noopener noreferrer">
                     <i alt='github' className="fab fa-github"/>
@@ -18,7 +18,7 @@ const Tile = (props) => {
     return (
         <TileDiv>
             <img alt={ name } src={ `${ process.env.PUBLIC_URL}${ image }` }/>
-            <a href= { url } target="_blank" rel="noreferrer">{ name }</a>
+            <a href= { url } target="_blank" rel="noopener noreferrer">{ name }</a>
            { renderGit() }
         </TileDiv>
     )

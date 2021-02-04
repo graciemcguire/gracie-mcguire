@@ -6,7 +6,7 @@ import Portfolio from './Pages/Portfolio'
 import Contact from './Pages/Contact'
 
 const App = () => {
-  console.log("Made with ❤️ by Gracie McGuire in 2020");
+  console.log("Made with ❤️ by Gracie McGuire");
   console.log("github.com/graciemcguire 🏝");
  return (
       <Switch>
