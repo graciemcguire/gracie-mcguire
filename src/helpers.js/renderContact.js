@@ -2,7 +2,7 @@ import React from 'react';
 import { IconDiv } from '../StyledComponents/ContentDivs'
 import { Icons } from '../StyledComponents/NavStyle'
 import contact from '../data/contact-db.json'
-import resume from '../data/MGMcGuire_Resume_0820.pdf'
+import resume from '../data/GMcGuire-Resume-2021.pdf'
 
 const mapContact = () => {
   return contact.map(site => {
